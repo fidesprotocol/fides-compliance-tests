@@ -1,0 +1,31 @@
+{
+  "decision_id": "bb0e8400-e29b-41d4-a716-446655440006",
+  "authority_id": "BR-GOV-001",
+  "deciders_id": ["CPF-12345678901"],
+  "act_type": "contract",
+  "currency": "BRL",
+  "maximum_value": 50000.00,
+  "beneficiary": "CNPJ-12345678000199",
+  "legal_basis": "Lei 14.133/2021 Art. 75",
+  "decision_date": "2025-01-15T10:00:00Z",
+  "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "record_timestamp": "2025-01-15T14:30:00Z",
+  "timestamp_attestation": {
+    "method": "ntp_consensus",
+    "proof": {
+      "ntp_servers": ["time.google.com", "time.windows.com", "pool.ntp.org"],
+      "consensus_timestamp": "2025-01-15T14:30:00Z"
+    },
+    "sources": ["time.google.com", "time.windows.com", "pool.ntp.org"]
+  },
+  "signatures": [
+    {
+      "signer_id": "CPF-12345678901",
+      "public_key": "MCowBQYDK2VwAyEAqPr5GKAPD...",
+      "algorithm": "Ed25519",
+      "signature": "JGx5cHRvZ3JhcGhpY19zaWdu...",
+      "signed_at": "2025-01-15T10:00:00Z"
+    }
+  ],
+  "_comment": "Uses deprecated ntp_consensus method which is not allowed in v0.3"
+}

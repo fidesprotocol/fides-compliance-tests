@@ -1,0 +1,9 @@
+{
+  "payment_id": "ee0e8400-e29b-41d4-a716-446655440009",
+  "decision_id": "550e8400-e29b-41d4-a716-446655440000",
+  "payment_amount": 25000.00,
+  "payment_currency": "BRL",
+  "payment_beneficiary": "CNPJ-99999999000100",
+  "request_timestamp": "2025-01-17T09:00:00Z",
+  "_comment": "Beneficiary does not match DR beneficiary (CNPJ-12345678000199)"
+}

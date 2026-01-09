@@ -1,0 +1,33 @@
+{
+  "payment_id": "880e8400-e29b-41d4-a716-446655440003",
+  "decision_id": "550e8400-e29b-41d4-a716-446655440000",
+  "payment_amount": 25000.00,
+  "payment_currency": "BRL",
+  "payment_beneficiary": "CNPJ-12345678000199",
+  "request_timestamp": "2025-01-17T09:00:00Z",
+  "authorization_result": true,
+  "rejection_reason": null,
+  "execution_timestamp": "2025-01-17T09:01:00Z",
+  "payment_executor_id": "EXECUTOR-001",
+  "previous_payment_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "timestamp_attestation": {
+    "method": "rfc3161",
+    "proof": {
+      "tsa_url": "https://freetsa.org/tsr",
+      "tsa_certificate": "MIIFqDCCA5CgAwIBAgIJANK...",
+      "timestamp_token": "MIIKzAYJKoZIhvcNAQcCoII...",
+      "hash_algorithm": "SHA-256",
+      "message_imprint": "e3f4a5b6c7d8901234567890123456789012345678901234567890abcdef2345"
+    },
+    "sources": ["FreeTSA"]
+  },
+  "signatures": [
+    {
+      "signer_id": "EXECUTOR-001",
+      "public_key": "MCowBQYDK2VwAyECsPt7IBAQE...",
+      "algorithm": "Ed25519",
+      "signature": "MJz7vIRvZ3JhcGhpY19zaWdu...",
+      "signed_at": "2025-01-17T09:01:00Z"
+    }
+  ]
+}

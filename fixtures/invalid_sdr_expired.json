@@ -1,0 +1,47 @@
+{
+  "decision_id": "dd0e8400-e29b-41d4-a716-446655440008",
+  "authority_id": "BR-GOV-001",
+  "deciders_id": ["CPF-12345678901", "CPF-98765432100"],
+  "act_type": "contract",
+  "currency": "BRL",
+  "maximum_value": 100000.00,
+  "beneficiary": "CNPJ-98765432000188",
+  "legal_basis": "Lei 14.133/2021 Art. 75",
+  "decision_date": "2024-01-01T08:00:00Z",
+  "previous_record_hash": "b4c5d6e7f8901234567890abcdef1234567890abcdef1234567890abcdef5678",
+  "record_timestamp": "2024-01-01T09:00:00Z",
+  "timestamp_attestation": {
+    "method": "rfc3161",
+    "proof": {
+      "tsa_url": "https://freetsa.org/tsr",
+      "tsa_certificate": "MIIFqDCCA5CgAwIBAgIJANK...",
+      "timestamp_token": "MIIKzAYJKoZIhvcNAQcCoII...",
+      "hash_algorithm": "SHA-256",
+      "message_imprint": "f4a5b6c7d8e9012345678901234567890123456789012345678901234567abcd"
+    },
+    "sources": ["FreeTSA"]
+  },
+  "signatures": [
+    {
+      "signer_id": "CPF-12345678901",
+      "public_key": "MCowBQYDK2VwAyEAqPr5GKAPD...",
+      "algorithm": "Ed25519",
+      "signature": "JGx5cHRvZ3JhcGhpY19zaWdu...",
+      "signed_at": "2024-01-01T08:00:00Z"
+    },
+    {
+      "signer_id": "CPF-98765432100",
+      "public_key": "MCowBQYDK2VwAyEBrQs6HBAPE...",
+      "algorithm": "Ed25519",
+      "signature": "KHx6dHRvZ3JhcGhpY19zaWdu...",
+      "signed_at": "2024-01-01T08:00:00Z"
+    }
+  ],
+  "is_sdr": true,
+  "exception_type": "essential_service",
+  "formal_justification": "Contratacao emergencial para manutencao do sistema de abastecimento de agua da regiao metropolitana, evitando interrupcao do servico essencial a populacao.",
+  "maximum_term": "2024-01-16T08:00:00Z",
+  "reinforced_deciders": ["CPF-12345678901", "CPF-98765432100"],
+  "oversight_authority": "TCU-001",
+  "_comment": "This SDR has already expired (maximum_term is in the past)"
+}

@@ -1,0 +1,31 @@
+{
+  "revocation_id": "770e8400-e29b-41d4-a716-446655440002",
+  "target_decision_id": "550e8400-e29b-41d4-a716-446655440000",
+  "revocation_type": "voluntary",
+  "revocation_reason": "Decisao revogada por erro material na identificacao do beneficiario.",
+  "revoker_authority": "original_decider",
+  "revoker_id": ["CPF-12345678901"],
+  "revocation_date": "2025-01-16T10:00:00Z",
+  "previous_record_hash": "c5d6e7f8901234567890abcdef1234567890abcdef1234567890abcdef678901",
+  "record_timestamp": "2025-01-16T10:30:00Z",
+  "timestamp_attestation": {
+    "method": "rfc3161",
+    "proof": {
+      "tsa_url": "https://freetsa.org/tsr",
+      "tsa_certificate": "MIIFqDCCA5CgAwIBAgIJANK...",
+      "timestamp_token": "MIIKzAYJKoZIhvcNAQcCoII...",
+      "hash_algorithm": "SHA-256",
+      "message_imprint": "d2e3f4a5b6c7890123456789012345678901234567890abcdef1234567890bcde"
+    },
+    "sources": ["FreeTSA"]
+  },
+  "signatures": [
+    {
+      "signer_id": "CPF-12345678901",
+      "public_key": "MCowBQYDK2VwAyEAqPr5GKAPD...",
+      "algorithm": "Ed25519",
+      "signature": "LIy6uHRvZ3JhcGhpY19zaWdu...",
+      "signed_at": "2025-01-16T10:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "decision_id": "990e8400-e29b-41d4-a716-446655440004",
+  "authority_id": "BR-GOV-001",
+  "act_type": "contract",
+  "currency": "BRL",
+  "maximum_value": 50000.00,
+  "legal_basis": "Lei 14.133/2021 Art. 75",
+  "decision_date": "2025-01-15T10:00:00Z",
+  "_comment": "Missing: deciders_id, beneficiary, previous_record_hash, record_timestamp, signatures"
+}
